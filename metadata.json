@@ -1,0 +1,6 @@
+{
+  "name": "AI Kimyo Laboratoriyasi",
+  "description": "Zamonaviy 3D virtual kimyo laboratoriyasi, reaksiyalar simulyatori, AI kimyogar maslahatchi va interaktiv davriy jadval",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

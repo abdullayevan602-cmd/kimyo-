@@ -1,0 +1,40 @@
+@import "tailwindcss";
+
+@keyframes bubbleRise {
+  0% {
+    transform: translateY(0) scale(0.6);
+    opacity: 0;
+  }
+  20% {
+    opacity: 0.9;
+  }
+  80% {
+    opacity: 0.8;
+  }
+  100% {
+    transform: translateY(-180px) scale(1.2);
+    opacity: 0;
+  }
+}
+
+@keyframes floatSmoke {
+  0% {
+    transform: translateY(0) scale(0.7);
+    opacity: 0.7;
+  }
+  50% {
+    opacity: 0.4;
+  }
+  100% {
+    transform: translateY(-80px) scale(2.4);
+    opacity: 0;
+  }
+}
+
+.animate-bubble-rise {
+  animation: bubbleRise infinite linear;
+}
+
+.animate-float-smoke {
+  animation: floatSmoke infinite ease-out;
+}
